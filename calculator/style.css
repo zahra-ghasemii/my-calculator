@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #e3e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    background-color: #fff;
+}
+.top-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e0e0;
+}
+.top-header p{
+    font-size: 10px;
+}
+.second-header{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e0e0;
+}
+.burger .line{
+    width: 25px;
+    height: 1px;
+    margin: 4px 0;
+    background-color: #333;
+}
+.second-header h3{
+    margin-left: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second-header .burgerandheading{
+    display: flex;
+    align-items: center;
+}
+.input-group input{
+    padding: 30px 10px 15px 10px;
+    border: none;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    background-color: #e3e0e0;
+}
+.modes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #e3e0e0;
+}
+.modes p{
+    font-size: 12px;
+    margin-left: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.not-active{
+    color: rgb(166, 165, 165);
+}
+
+.operations{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    align-items: center;
+    background-color: #f7f6f6;
+}
+.operations p{
+    padding: 15px;
+    padding: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:  1px solid #f6f4f4;
+}
+.secondoperations{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.secondoperations p{
+    padding: 15px;
+    border:  1px solid #f9f6f6;
+}
+.firstoperation{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    background-color: #f7f6f6;
+}
+.firstoperation p{
+    padding: 15px;
+    padding: 15px 0;
+    border:  1px solid #f6f4f4;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+     width: 100%;
+    }
+    .modes{
+        width: 100%;
+    }
+    
+  }
